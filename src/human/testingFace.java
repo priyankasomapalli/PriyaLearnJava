@@ -17,10 +17,10 @@ public class testingFace {
 		fc1.name = "Devaansh";
 		System.out.println(fc1.name);
 		System.out.println(age);
-		fc.noOfLips=4;
+		fc.noOfLips = 4;
 		System.out.println(fc.noOfLips);
 		System.out.println(Face.noOfLips);
-		
+		System.out.println("Priyanka" + " Somapalli");
 
 	}
 
