@@ -5,18 +5,26 @@ public class Face {
 	String eyes = "black";
 	String nose = "sharp";
 	int noOfEyes = 2;
-	int noOfLips = 2;
-	String name="Priyanka";
+	static int noOfLips = 2;
+	String name = "Priyanka";
+
+	static int var = testingFace.age;
 
 	public void smile() {
 		System.out.println("Please Smile");
+		System.out.println(eyes);
 	}
 
-	public void smell() {
+	public static void smell() {
 		System.out.println("Smell the Scent");
+		Face.blink();
+		System.out.println(var);
 	}
 
-	public void blink() {
+	public static void blink() {
 		System.out.println("Eyes blink");
+		Face fc = new Face();
+		System.out.println(fc.eyes);
 	}
+
 }
