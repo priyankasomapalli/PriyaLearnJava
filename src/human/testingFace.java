@@ -17,7 +17,7 @@ public class testingFace {
 		fc1.name = "Devaansh";
 		System.out.println(fc1.name);
 		System.out.println(age);
-		fc.noOfLips = 4;
+		Face.noOfLips = 4;
 		System.out.println(Face.noOfLips);
 		System.out.println("Priyanka" + " Somapalli");
 
