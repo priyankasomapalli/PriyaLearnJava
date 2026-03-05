@@ -1,22 +1,23 @@
 package loopsinjava;
 
 public class ReverseOfNumwhile {
+	int reversed=0;
 	public void reversingNum(int a)
 	{
-		int reversed=0;
+		int b=a;
 		int newnum;
-		while(a!=0)
+		while(b!=0)
 		{
-			newnum=a%10;
+			newnum=b%10;
 			reversed=(reversed*10)+newnum;
-			a=a/10;
+			b=b/10;
 		}
 		System.out.println("Reveresed number is: "+reversed);
+		
 	}
 	public static void main(String[] args)
 	{
 		ReverseOfNumwhile rnw=new ReverseOfNumwhile();
-		rnw.reversingNum(45678);
+		rnw.reversingNum(426);
 	}
-
 }
