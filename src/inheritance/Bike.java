@@ -9,14 +9,12 @@ public class Bike extends Vehicle {
 	}
 	public static void main(String[] args)
 	{
-		Vehicle b=new Bike();
-		Bike b1=new Bike();
-		b1.testingBrakes();
+		Bike b=new Bike();
+		b.testingBrakes();
 		b.startEngine();
 		System.out.println(b.color);
 		System.out.println(b.noOfWheels);
-		
-		
+		System.out.println(b.noOfLights);	
 		
 	}
 	

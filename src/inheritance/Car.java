@@ -6,21 +6,25 @@ public class Car extends Vehicle{
 	 {
 		 System.out.println("Car has seats");
 	 }
+	 public void checkingSeats(int i) {
+		 System.out.println("Method Overloading");
+	 }
 	public void honking()
 	{
 		System.out.println("Car honks");
 	}
 	public static void main(String[] args)
 	{
-		Vehicle c=new Car();
-		Car c1=new Car();
+		Car c=new Car();
+		
 		System.out.println(type);
 		System.out.println(c.color);
 		System.out.println(c.noOfWheels);
 		c.startEngine();
 		c.honking();
-		c1.checkingSeats();
-		
+		c.checkingSeats();
+		c.printParent();
+		c.checkingSeats(2);
 		
 		
 	}
