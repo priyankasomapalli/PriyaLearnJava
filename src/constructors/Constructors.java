@@ -13,11 +13,5 @@ public class Constructors {
 		System.out.println(n);
 	}
 
-	public static void main(String[] args)
-
-	{
-		Constructors c = new Constructors();
-		c=new Constructors(20);
-		System.out.println(c);
-	}
+	
 }

@@ -8,6 +8,7 @@ public class BabyConstructor extends Constructors {
 	}
 	public  BabyConstructor()
 	{
+		super(55);
 		System.out.println("Baby Constructor");
 	}
 	public BabyConstructor(int a)
@@ -20,6 +21,7 @@ public class BabyConstructor extends Constructors {
 	{
 		BabyConstructor bc=new BabyConstructor();
 		bc=new BabyConstructor(32);
+		bc.print();
 		
 
 		
