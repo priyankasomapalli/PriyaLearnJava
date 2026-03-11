@@ -13,7 +13,7 @@ public class BabyConstructor extends Constructors {
 	}
 	public BabyConstructor(int n)
 	{//here int n in instance variable and in parameter both different but to avoid confusion we use this keyword
-		this.n=n;
+		this.n=n; //this(); used to call constructor,here line 9 is being called.
 		System.out.println(n);
 		System.out.println(n);
 	}
