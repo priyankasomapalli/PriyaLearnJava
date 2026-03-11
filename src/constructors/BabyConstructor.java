@@ -11,11 +11,11 @@ public class BabyConstructor extends Constructors {
 		super(55);
 		System.out.println("Baby Constructor");
 	}
-	public BabyConstructor(int a)
-	{
-		n=a;
+	public BabyConstructor(int n)
+	{//here int n in instance variable and in parameter both different but to avoid confusion we use this keyword
+		this.n=n;
 		System.out.println(n);
-		System.out.println(a);
+		System.out.println(n);
 	}
 	public static void main(String[] args)
 	{
