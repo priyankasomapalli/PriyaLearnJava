@@ -4,6 +4,7 @@ public class BabyConstructor extends Constructors {
 	int n;
 	public void print()
 	{
+		super.test();//accessing parent method using super
 		System.out.println("Printing from baby constructor");
 	}
 	public  BabyConstructor()
@@ -22,6 +23,7 @@ public class BabyConstructor extends Constructors {
 		BabyConstructor bc=new BabyConstructor();
 		bc=new BabyConstructor(32);
 		bc.print();
+		System.out.println(bc);
 		
 
 		
