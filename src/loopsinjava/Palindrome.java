@@ -28,7 +28,7 @@ public class Palindrome {
 		
 		Palindrome p = new Palindrome();
 		
-		boolean x=p.checkingPalindrome(424);
+		boolean x=p.checkingPalindrome(422);
 		
 		System.out.println(x);
 		
